@@ -1,13 +1,14 @@
-# Sample Hardhat Project
+# Uniswap X Filler
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
-Try running some of the following tasks:
+to initialize the project : 
+```shell
+npm i 
+```
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+cd scripts
+node OffChainService
 ```
+
+With the help of executing the Off Chain Service , It using the Oracle Contract to execute the transaction of the data , that we fetching from the api . 
