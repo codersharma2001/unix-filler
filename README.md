@@ -11,4 +11,4 @@ cd scripts
 node OffChainService
 ```
 
-With the help of executing the Off Chain Service , It using the Oracle Contract to execute the transaction of the data , that we fetching from the api . 
+With the help of executing the Off Chain Service , It using the Oracle Contract Instance to execute the transaction of the data , that we fetching from the api . 
